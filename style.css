@@ -1,0 +1,125 @@
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+nav {
+  background-color: #4A148C;
+}
+
+nav a {
+  font-weight: bold;
+  color: white;
+}
+
+.cover {
+  background-image: url(img/kantai.jpg); 
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+
+}
+.parallax-container {
+
+  height: 100%;
+  width: 100%;
+}
+
+.parallax-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-size: 15px;
+}
+
+.white-text-with-border {
+  color: #fff; 
+  border: 2px solid #fff; 
+  padding: 10px; 
+  display: inline-block;
+  text-align: center;
+
+}
+
+h1 {
+  font-size: 9rem;
+  font-weight: bold;
+  opacity: 0.6;
+ 
+} 
+h4 {
+  font-size: 6rem;
+  font-weight: bold;
+  opacity: 0.7;
+
+}
+
+h5 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Brush Script MT', monospace;
+
+}
+
+h6 {
+  font-size: 3rem;
+  font-family: 'Brush Script MT', monospace;
+
+}
+
+.paragraph {
+  font-size: 11px;
+  font-family: 'Georgia (serif)', monospace;
+
+}
+
+.container {
+  padding-top: 10px;
+  padding: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.split-screen {
+  display: flex;
+  height: 100vh;
+
+}
+
+.left-side,
+.right-side {
+  flex: 1;
+ overflow: hidden;
+
+}
+
+.slider {
+  width: 1000px;
+  
+}
+
+.slider img {
+  width: 925px;
+  height: auto;
+}
+
